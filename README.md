@@ -6,17 +6,18 @@ SISI: Simposium de Sistemas Computacionales del instituto Tecnológico de Mérid
 
 
 
-1.- Crear repositorio en github
-2.- clonar repositorio
-3.- crear entorno virtual
-    $ $ python3 -m venv venv
-4.- activar entorno virtual
-    $ source venv/bin/activate
-5.- instalar django
-    $ pip install django
-6.- crear proyecto (dentro del entorno virtual)
-    $ django-admin startproject 'nombre proyecto'
-7.- sacar el manage.py a la carpeta raíz sacar archivos de carpeta extra que se crea al dar startproject (mas fácil en explorador)
+1. Crear repositorio en GitHub.
+2. Clonar repositorio.
+3. Crear entorno virtual.
+    - `$  python3 -m venv venv`
+4. Activar entorno virtual.
+    - $ source venv/bin/activate
+5. Instalar django
+    - $ pip install django
+6. Crear proyecto (dentro del entorno virtual).
+    - $ django-admin startproject 'nombre proyecto'
+7. Sacar el manage.py a la carpeta raíz sacar archivos de carpeta extra que se crea al dar startproject (mas fácil en explorador).
+
 8.- init.py con este archivo el sistema entiende que dentro de esas carpetas hay código que ejecutar
 9.- asgi puente para ejecución que ejecuta y levanta el servidor
 10.- settings.py configuración del proyecto, rutas de base de datos, idioma, dirección de imagenes etc
