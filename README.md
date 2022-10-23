@@ -19,9 +19,9 @@ SISI: Simposium de Sistemas Computacionales del instituto Tecnológico de Mérid
     - `$ pip install django`
 6. Crear proyecto (dentro del entorno virtual).
     - `$ django-admin startproject 'nombre proyecto'`
-7. Sacar el manage.py a la carpeta raíz sacar archivos de carpeta extra que se crea al dar startproject (mas fácil en explorador).
+7. Sacar el __manage__.py a la carpeta raíz sacar archivos de carpeta extra que se crea al dar startproject (mas fácil en explorador).
 
-8. init.py con este archivo el sistema entiende que dentro de esas carpetas hay código que ejecutar.
+8. __init__.py con este archivo el sistema entiende que dentro de esas carpetas hay código que ejecutar.
 9. asgi puente para ejecución que ejecuta y levanta el servidor.
 10. settings.py configuración del proyecto, rutas de base de datos, idioma, dirección de imagenes etc.
 11. urls.py para ejecutar codigo web todoo lo haces atraves de urls aqui se estructura como se va a ver.
@@ -36,8 +36,8 @@ SISI: Simposium de Sistemas Computacionales del instituto Tecnológico de Mérid
 
 ### APLICACIONES
 
-1. Crear carpeta applications a la altura del manage.py
-poner archivo __init_.py dentro de la carpeta aplications
+1. Crear carpeta applications a la altura del __manage__.py
+poner archivo __init__.py dentro de la carpeta aplications
 entrar a la carpeta y crear apps.  
 `$ django-admin startapp 'nombre app'`
 2. Ir al settings base.py y dar de alta las aplicaciones, modificar dentro del archivo apps.py de la aplicación el name apuntando a la carpeta.
@@ -46,18 +46,18 @@ entrar a la carpeta y crear apps.
     $ pip freeze > requirements.txt
 1. Crear carpeta settings a la altura de inventarios.
 2. Colocar archivo __init__.py dentro dse la carpeta.
-3. Agregar 3 archivos que seran nuestros entornos: local.py, base.py, prod.py
-4. Poner en el archivo base.py todos los componentes de settings que usamos en local y prod
-5. Importar dentro de local el archivo base.py $$ from .base import *
-6. Cambiar nombre a settings.py original.
-7. Ejecutar variable de entorno local.py.<br>
+3. Agregar 3 archivos que seran nuestros entornos: __local__.py, __base__.py, __prod__.py
+4. Poner en el archivo __base__.py todos los componentes de settings que usamos en local y prod.
+5. Importar dentro de local el archivo __base__.py: `from .base import *`
+6. Cambiar nombre a __settings__.py original.
+7. Ejecutar variable de entorno __local__.py.<br>
 `$ python manage.py runserver --settings=inventarios.settings.local`
-8. En manage.py dice que entorno va a utilizar.
+8. En __manage__.py dice que entorno va a utilizar.
 
 ------------------------------------------
 ## SERIALIZERS APIS
 Instalar django rest framework, seguir documentación
-1. crear archivo serializers.py
+1. crear archivo __serializers__.py
 2. Se crea serializer, view, url
 -----------------------------------------
 ## Features
