@@ -43,7 +43,7 @@ entrar a la carpeta y crear apps.
 2. Ir al settings base.py y dar de alta las aplicaciones, modificar dentro del archivo apps.py de la aplicación el name apuntando a la carpeta.
 -------------------------------------------
 ### VARIABLES DE ENTORNO
-`pip freeze > requirements.txt` <br>
+    pip freeze > requirements.txt
 1. Crear carpeta settings a la altura de inventarios.
 2. Colocar archivo __init__.py dentro dse la carpeta.
 3. Agregar 3 archivos que seran nuestros entornos: local.py, base.py, prod.py
@@ -51,7 +51,7 @@ entrar a la carpeta y crear apps.
 5. Importar dentro de local el archivo base.py $$ from .base import *
 6. Cambiar nombre a settings.py original.
 7. Ejecutar variable de entorno local.py. <br>
-$ python manage.py runserver --settings=inventarios.settings.local
+    $ python manage.py runserver --settings=inventarios.settings.local
 8. En manage.py dice que entorno va a utilizar.
 
 ------------------------------------------
