@@ -1,4 +1,11 @@
-# tallerdjango
+# Taller de desarrollo de plataformas web con Vue.JS y Django.
+## Repositorio creado durante el SISI 2022.
+
+SISI: Simposium de Sistemas Computacionales del instituto Tecnológico de Mérida.
+
+
+
+
 1.- Crear repositorio en github
 2.- clonar repositorio
 3.- crear entorno virtual
