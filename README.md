@@ -50,7 +50,7 @@ entrar a la carpeta y crear apps.
 4. Poner en el archivo base.py todos los componentes de settings que usamos en local y prod
 5. Importar dentro de local el archivo base.py $$ from .base import *
 6. Cambiar nombre a settings.py original.
-7. Ejecutar variable de entorno local.py. <br>
+7. Ejecutar variable de entorno local.py. 
     $ python manage.py runserver --settings=inventarios.settings.local
 8. En manage.py dice que entorno va a utilizar.
 
