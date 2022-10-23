@@ -43,7 +43,7 @@ entrar a la carpeta y crear apps.
 2. Ir al settings base.py y dar de alta las aplicaciones, modificar dentro del archivo apps.py de la aplicación el name apuntando a la carpeta.
 -------------------------------------------
 ### VARIABLES DE ENTORNO
-    pip freeze > requirements.txt
+    $ pip freeze > requirements.txt
 1. Crear carpeta settings a la altura de inventarios.
 2. Colocar archivo __init__.py dentro dse la carpeta.
 3. Agregar 3 archivos que seran nuestros entornos: local.py, base.py, prod.py
