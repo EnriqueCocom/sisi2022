@@ -23,9 +23,9 @@ SISI: Simposium de Sistemas Computacionales del instituto Tecnológico de Mérid
 
 8. __init__.py con este archivo el sistema entiende que dentro de esas carpetas hay código que ejecutar.
 9. asgi puente para ejecución que ejecuta y levanta el servidor.
-10. settings.py configuración del proyecto, rutas de base de datos, idioma, dirección de imagenes etc.
-11. urls.py para ejecutar codigo web todoo lo haces atraves de urls aqui se estructura como se va a ver.
-12. wsgi.py funcionalidad de ejecución.
+10. __settings__.py configuración del proyecto, rutas de base de datos, idioma, dirección de imagenes etc.
+11. __urls__.py para ejecutar codigo web todoo lo haces atraves de urls aqui se estructura como se va a ver.
+12. __wsgi__.py funcionalidad de ejecución.
 13. Crear funcion de python en urls para dar ejemplo de como se ejecuta en terminal, en django si se debe pasar parametro forzoso.<br>
     `def saludo(self):` <br>
     `print('Hola mundo')` <br>
@@ -56,9 +56,9 @@ entrar a la carpeta y crear apps.
 
 ------------------------------------------
 ## SERIALIZERS APIS
-Instalar django rest framework, seguir documentación
+Instalar django rest framework, seguir documentación.
 1. crear archivo __serializers__.py
-2. Se crea serializer, view, url
+2. Se crea serializer, view, url.
 -----------------------------------------
 ## Features
 
