@@ -21,7 +21,7 @@ SISI: Simposium de Sistemas Computacionales del instituto Tecnológico de Mérid
     - `$ django-admin startproject 'nombre proyecto'`
 7. Sacar el __manage__.py a la carpeta raíz sacar archivos de carpeta extra que se crea al dar startproject (mas fácil en explorador).
 
-8. init.py con este archivo el sistema entiende que dentro de esas carpetas hay código que ejecutar.
+8. __init__.py con este archivo el sistema entiende que dentro de esas carpetas hay código que ejecutar.
 9. asgi puente para ejecución que ejecuta y levanta el servidor.
 10. settings.py configuración del proyecto, rutas de base de datos, idioma, dirección de imagenes etc.
 11. urls.py para ejecutar codigo web todoo lo haces atraves de urls aqui se estructura como se va a ver.
